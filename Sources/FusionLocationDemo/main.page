@@ -5,79 +5,80 @@
     <location/>
     <backgroundColor Red="248" Green="248" Blue="248"/>
     <children xsi:type="native:MapWidget" name="mapWidget">
-      <location x="5" y="6"/>
-      <size width="404" height="725"/>
+      <location x="10" y="10"/>
+      <size width="395" height="717"/>
       <layoutData xsi:type="layout:AutoLayoutData">
         <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.0" target="/0"/>
         <constraints sourceAnchor="CENTER_Y" targetAnchor="CENTER_Y" source="/0/@children.0" target="/0"/>
       </layoutData>
     </children>
     <children xsi:type="widgets:RowView" name="rowView">
+      <minArea/>
+      <location x="4" y="640"/>
+      <backgroundColor Red="241" Green="241" Blue="241"/>
       <children xsi:type="widgets:Button" text="Airport" name="btnAirport" horizontalAlignment="CENTER">
-        <font fontFamily="ArialMT" size="17">
+        <font fontFamily="ArialMT" size="15">
           <color Red="68" Green="106" Blue="179"/>
         </font>
-        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
+        <layoutData xsi:type="layout:GridData" verticalAlignment="MIDDLE" grabHorizontalSpace="true" grabVerticalSpace="true">
           <minSize width="86" height="23"/>
           <maxSize width="-1" height="-1"/>
         </layoutData>
-        <location x="5" y="5"/>
-        <size width="86" height="40"/>
+        <location y="12"/>
+        <size width="86" height="23"/>
         <contentSize width="86" height="23"/>
       </children>
-      <children xsi:type="widgets:Button" text="Seaport" name="btnSeaport" horizontalAlignment="CENTER">
-        <font fontFamily="ArialMT" size="17">
+      <children xsi:type="widgets:Button" text="Seaport" name="btnSeaport">
+        <font fontFamily="ArialMT" size="15">
           <color Red="68" Green="106" Blue="179"/>
         </font>
         <layoutData xsi:type="layout:GridData" column="1" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
           <minSize width="86" height="23"/>
           <maxSize width="-1" height="-1"/>
         </layoutData>
-        <location x="91" y="5"/>
-        <size width="86" height="40"/>
+        <location x="86" y="2"/>
+        <size width="86" height="43"/>
         <contentSize width="86" height="23"/>
       </children>
-      <children xsi:type="widgets:Button" text="Satelite" name="btnSatelite" horizontalAlignment="CENTER">
-        <font fontFamily="ArialMT" size="17">
+      <children xsi:type="widgets:Button" text="Satelite" name="btnSatelite">
+        <font fontFamily="ArialMT" size="15">
           <color Red="68" Green="106" Blue="179"/>
         </font>
         <layoutData xsi:type="layout:GridData" column="2" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
           <minSize width="86" height="23"/>
           <maxSize width="-1" height="-1"/>
         </layoutData>
-        <location x="177" y="5"/>
-        <size width="86" height="40"/>
+        <location x="172" y="2"/>
+        <size width="86" height="43"/>
         <contentSize width="86" height="23"/>
       </children>
-      <children xsi:type="widgets:Button" text="Standard" name="btnStandard" horizontalAlignment="CENTER">
-        <font fontFamily="ArialMT" size="17">
+      <children xsi:type="widgets:Button" text="Standard" name="btnStandard">
+        <font fontFamily="ArialMT" size="15">
           <color Red="68" Green="106" Blue="179"/>
         </font>
         <layoutData xsi:type="layout:GridData" column="3" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
           <minSize width="86" height="23"/>
           <maxSize width="-1" height="-1"/>
         </layoutData>
-        <location x="263" y="5"/>
-        <size width="86" height="40"/>
+        <location x="258" y="2"/>
+        <size width="86" height="43"/>
         <contentSize width="86" height="23"/>
       </children>
-      <children xsi:type="widgets:Button" text="Hybrid" name="btnHybrid" horizontalAlignment="CENTER">
-        <font fontFamily="ArialMT" size="17">
+      <children xsi:type="widgets:Button" text="Hybrid" name="btnHybrid">
+        <font fontFamily="ArialMT" size="15">
           <color Red="68" Green="106" Blue="179"/>
         </font>
-        <layoutData xsi:type="layout:GridData" column="4" verticalAlignment="MIDDLE" heightConstraint="MATCH_PARENT" grabVerticalSpace="true">
+        <layoutData xsi:type="layout:GridData" column="4" verticalAlignment="MIDDLE" grabVerticalSpace="true">
           <minSize width="86" height="23"/>
           <maxSize width="-1" height="-1"/>
         </layoutData>
-        <location x="349" y="5"/>
-        <size width="86" height="40"/>
+        <location x="344" y="12"/>
+        <size width="86" height="23"/>
         <contentSize width="86" height="23"/>
       </children>
-      <layout xsi:type="layout:GridLayout" columns="5" marginRight="5" marginTop="5" marginBottom="5" marginLeft="5"/>
+      <layout xsi:type="layout:GridLayout" columns="5" marginTop="2" marginBottom="2"/>
       <maxArea width="-1" height="-1"/>
-      <location x="2" y="639"/>
-      <minArea/>
-      <size width="410" height="50"/>
+      <size width="407" height="47"/>
       <layoutData xsi:type="layout:AutoLayoutData">
         <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.1" target="/0"/>
       </layoutData>

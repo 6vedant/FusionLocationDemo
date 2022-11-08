@@ -84,6 +84,8 @@ self.btnHybrid.onClick.append(
 }
 func goto(coordinates: SCDPlatformLocationCoordinate) {
         self.mapWidget.setRegion(coordinates, latitudinalMeters: 1000, longitudinalMeters: 1000)
+        self.setPinAsAnnotaton(coordinate: coordinates,  imagePath: "Assets/mpin.png")
+
         
 }
 

@@ -2,34 +2,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:scade="http://www.scade.io/v0.1" eObject-URI="main.page#/0" widget-name="main" width="414" height="736">
   <rect template-id="background" width="100%" height="100%" fill="#f8f8f8" />
   <g template-id="content">
-    <svg eObject-URI="main.page#/0/@children.0" widget-name="mapWidget" x="5" y="6" width="404" height="725">
+    <svg eObject-URI="main.page#/0/@children.0" widget-name="mapWidget" x="10" y="10" width="395" height="717">
       <g template-id="content" />
     </svg>
-    <svg x="2" y="639" width="410" height="50" widget-name="rowView" eObject-URI="main.page#/0/@children.1">
-      <g template-id="content">
-        <svg x="5" y="5" width="86" height="40" widget-name="btnAirport" eObject-URI="main.page#/0/@children.1/@children.0">
+    <svg widget-name="rowView" eObject-URI="main.page#/0/@children.1" x="4" y="640" width="407" height="47">
+      <rect template-id="background" width="100%" height="100%" fill="#f1f1f1" />
+      <g scrollableBox="418 51" scrollable="horizontal" template-id="content" constraints="scrollsize!size.w|size.h">
+        <svg widget-name="btnAirport" eObject-URI="main.page#/0/@children.1/@children.0" y="12" width="86" height="23">
           <g template-id="content">
-            <text text-anchor="middle" alignment-baseline="central" font-size="17" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="43" y="20" fill="#446ab3">Airport</text>
+            <text text-anchor="middle" alignment-baseline="central" font-size="15" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="43" y="11.5" fill="#446ab3">Airport</text>
           </g>
         </svg>
-        <svg width="86" height="40" x="91" y="5" widget-name="btnSeaport" eObject-URI="main.page#/0/@children.1/@children.1">
+        <svg widget-name="btnSeaport" eObject-URI="main.page#/0/@children.1/@children.1" x="86" y="2" width="86" height="43">
           <g template-id="content">
-            <text template-id="node-text" x="43" y="20" alignment-baseline="central" text-anchor="middle" font-family="ArialMT" font-size="17" font-style="normal" text-decoration="none" fill="#446ab3">Seaport</text>
+            <text text-anchor="start" alignment-baseline="central" font-size="15" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="21.5" fill="#446ab3">Seaport</text>
           </g>
         </svg>
-        <svg width="86" height="40" x="177" y="5" widget-name="btnSatelite" eObject-URI="main.page#/0/@children.1/@children.2">
+        <svg widget-name="btnSatelite" eObject-URI="main.page#/0/@children.1/@children.2" x="172" y="2" width="86" height="43">
           <g template-id="content">
-            <text template-id="node-text" x="43" y="20" alignment-baseline="central" text-anchor="middle" font-family="ArialMT" font-size="17" font-style="normal" text-decoration="none" fill="#446ab3">Satelite</text>
+            <text alignment-baseline="central" font-size="15" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="21.5" fill="#446ab3" text-anchor="start">Satelite</text>
           </g>
         </svg>
-        <svg width="86" height="40" x="263" y="5" widget-name="btnStandard" eObject-URI="main.page#/0/@children.1/@children.3">
+        <svg widget-name="btnStandard" eObject-URI="main.page#/0/@children.1/@children.3" x="258" y="2" width="86" height="43">
           <g template-id="content">
-            <text template-id="node-text" x="43" y="20" alignment-baseline="central" text-anchor="middle" font-family="ArialMT" font-size="17" font-style="normal" text-decoration="none" fill="#446ab3">Standard</text>
+            <text alignment-baseline="central" font-size="15" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="21.5" fill="#446ab3" text-anchor="start">Standard</text>
           </g>
         </svg>
-        <svg width="86" height="40" x="349" y="5" widget-name="btnHybrid" eObject-URI="main.page#/0/@children.1/@children.4">
+        <svg widget-name="btnHybrid" eObject-URI="main.page#/0/@children.1/@children.4" x="344" y="12" width="86" height="23">
           <g template-id="content">
-            <text template-id="node-text" x="43" y="20" alignment-baseline="central" text-anchor="middle" font-family="ArialMT" font-size="17" font-style="normal" text-decoration="none" fill="#446ab3">Hybrid</text>
+            <text alignment-baseline="central" font-size="15" font-family="ArialMT" font-style="normal" text-decoration="none" template-id="node-text" x="0" y="11.5" fill="#446ab3" text-anchor="start">Hybrid</text>
           </g>
         </svg>
       </g>
